@@ -5,6 +5,7 @@
  */
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,800');
+
 /**
  * General classes 
  *
@@ -14,11 +15,15 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    color: #555;
+    color: #888;
 }
 
 .bold {
     font-weight: 700;
+}
+
+.dark {
+    color: #555;
 }
 
 .italic {
@@ -45,12 +50,16 @@ body {
     background-color: #1e77a6;
 }
 
+.full-height {
+    height: 100%;
+}
+
 /**
  * Top menu styles 
  */
 
 .brand-logo {
-    text-shadow: 0 0 1rem rgba(255, 255, 255, 0.8);
+    text-shadow: 0 0 1rem  #fff;
 }
 
 /**
@@ -58,15 +67,24 @@ body {
  */
 
 .gray-card {
-    border-radius: .2rem;
+    border-radius: .4rem;
     background-color: #ebebeb;
 }
 
 .white-card {
     border: solid .08rem #d4d4d4;
-    border-radius: .2rem;
+    border-radius: .4rem;
     background-color: #fff;
 }
+
+.overlayed-card {
+    height: 6rem;
+    margin-top: -3rem;
+}
+
+    .overlayed-card .row {
+        height: 100%;
+    }
 
 .blue-badge {
     background: url('../img/ellipseBlue.svg');
@@ -74,7 +92,3 @@ body {
     background-repeat: no-repeat;
     color: red;
 }
-
-/**
- * 00
- */
