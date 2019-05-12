@@ -63,18 +63,18 @@ body {
  */
 
 .brand-logo {
-    text-shadow: 0 0 1rem  #fff;
+    text-shadow: 0 0 .8rem rgba( 255, 255, 255, 0.8);
 }
 
 
     .brand-logo:hover {
         color: #fff;
         text-decoration: none;
-        text-shadow: 0 0 .4rem  #fff;
+        text-shadow: 0 0 .3rem  #fff;
     }
 
 /**
- * content styles 
+ * Content styles 
  */
 
 .gray-card {
@@ -160,7 +160,6 @@ body {
  * Media queriess 
  */
 
- /*MOBILE*/
 @media (max-width: 575.98px) {
     .squared-btn {
         font-size: 0.7rem;
