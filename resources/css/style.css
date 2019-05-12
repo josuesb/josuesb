@@ -1,0 +1,169 @@
+/**
+ * Imports 
+ *
+ * Fonts: 'Open Sans'
+ */
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,800');
+
+/**
+ * General classes 
+ *
+ * Here are some general styles that may be used on multiple parts of this site
+ * Or styles that affect the entire app
+ */
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #888;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.dark {
+    color: #555;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.extra-bold {
+    font-weight: 800;
+}
+
+.white {
+    color: #fff;
+}
+
+.yellow {
+    color: #fdaf1e;
+}
+
+.yellow-bg {
+    background-color: #fdaf1e;
+}
+
+.blue {
+    color: #1e77a6;
+}
+
+.blue-bg {
+    background-color: #1e77a6;
+}
+
+.full-height {
+    height: 100%;
+}
+
+/**
+ * Top menu styles 
+ */
+
+.brand-logo {
+    text-shadow: 0 0 1rem  #fff;
+}
+
+
+    .brand-logo:hover {
+        color: #fff;
+        text-decoration: none;
+        text-shadow: 0 0 .4rem  #fff;
+    }
+
+/**
+ * content styles 
+ */
+
+.gray-card {
+    border-radius: .4rem;
+    background-color: #ebebeb;
+}
+
+.white-card {
+    border: solid .08rem #d4d4d4;
+    border-radius: .4rem;
+    background-color: #fff;
+}
+
+.overlayed-card {
+    height: 6rem;
+    margin-top: -3rem;
+}
+
+    .overlayed-card .row {
+        height: 100%;
+    }
+
+
+.blue-badge {
+    width: 50%;
+}
+
+    .blue-badge:after {
+        content: "";
+        display: block;
+        width: 100%;
+        height: 0;
+        padding-bottom: 100%;
+        background: #1e77a6;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+    }
+
+    .blue-badge h3 {
+        float: left;
+        width: 100%;
+        padding-top: 50%;
+        line-height: 1em;
+        margin-top: -0.5em;
+        text-align: center;
+        color: white;
+    }
+
+
+.download-link {
+    color: #1e77a6;
+    text-decoration: underline;
+}
+
+    .download-link:hover {
+        color: #fdaf1e;
+    }
+
+.squared-btn {
+    height: 4.25rem;
+    padding-top: .7rem;
+    border-radius: 0;
+    font-size: 1.05rem;
+    color: #fff;
+    background-color: #fdaf1e;
+}
+
+    .squared-btn img {
+        height: 80%;
+        margin-right: .5rem;
+        margin-top: -.2rem;
+    }
+    .squared-btn:hover {
+        color: #fff;
+        background-color: #f9b858;
+    }
+    .squared-btn:active{
+        background-color: #f99d0b;
+    }
+
+/**
+ * Media queriess 
+ */
+
+ /*MOBILE*/
+@media (max-width: 575.98px) {
+    .squared-btn {
+        font-size: 0.7rem;
+    }
+}
+
