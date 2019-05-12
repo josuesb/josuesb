@@ -39,11 +39,15 @@ body {
 }
 
 .yellow {
-    color: #f99d1c;
+    color: #fdaf1e;
 }
 
 .yellow-bg {
-    background-color: #f99d1c;
+    background-color: #fdaf1e;
+}
+
+.blue {
+    color: #1e77a6;
 }
 
 .blue-bg {
@@ -92,3 +96,34 @@ body {
     background-repeat: no-repeat;
     color: red;
 }
+
+.download-link {
+    color: #1e77a6;
+    text-decoration: underline;
+}
+
+    .download-link:hover {
+        color: #fdaf1e;
+    }
+
+.squared-btn {
+    height: 4.25rem;
+    padding-top: .7rem;
+    border-radius: 0;
+    font-size: 1.05rem;
+    color: #fff;
+    background-color: #fdaf1e;
+}
+
+    .squared-btn img {
+        height: 80%;
+        margin-right: .5rem;
+        margin-top: -.2rem;
+    }
+    .squared-btn:hover {
+        color: #fff;
+        background-color: #f9b858;
+    }
+    .squared-btn:active{
+        background-color: #f99d0b;
+    }
