@@ -4,8 +4,7 @@
  * Fonts: 'Open Sans'
  */
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700,800');
-
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,800');
 /**
  * General classes 
  *
@@ -15,10 +14,15 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    color: #555;
 }
 
 .bold {
     font-weight: 700;
+}
+
+.italic {
+    font-style: italic;
 }
 
 .extra-bold {
@@ -33,33 +37,43 @@ body {
     color: #f99d1c;
 }
 
-.bg-blue {
-    background-color: #1e77a6;
+.yellow-bg {
+    background-color: #f99d1c;
 }
 
+.blue-bg {
+    background-color: #1e77a6;
+}
 
 /**
  * Top menu styles 
  */
 
-.brand-logo {}
-
+.brand-logo {
+    text-shadow: 0 0 1rem rgba(255, 255, 255, 0.8);
+}
 
 /**
  * content styles 
  */
 
-.card-gray {
+.gray-card {
     border-radius: .2rem;
     background-color: #ebebeb;
 }
 
-.card-white {
+.white-card {
     border: solid .08rem #d4d4d4;
     border-radius: .2rem;
     background-color: #fff;
 }
 
+.blue-badge {
+    background: url('../img/ellipseBlue.svg');
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    color: red;
+}
 
 /**
  * 00
